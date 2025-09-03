@@ -1,0 +1,52 @@
+body {
+    font-family: Poppins, sans-serif; 
+    margin: 20px; 
+    background-color: rgb(26, 26, 26); 
+    color: #e6e6e6;
+}
+
+div{
+    text-align: center; 
+    background-color: rgb(43, 43, 43);
+    border-radius: 10px;
+}
+
+p {
+  margin: 20px
+}
+
+ul {
+  text-align: left;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    font-family: Poppins, sans-serif; 
+    margin: 20px; 
+    background-color: rgb(26, 26, 26); 
+    color: rgb(26, 26, 26);
+  }
+    
+  div {
+    background-color: #e6e6e6;
+  }
+}
+
+@media print {
+  body {
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background-color: white; 
+    color: black;
+  }
+
+  img {
+    display: none;
+  }
+    
+  div {
+    background-color: white;
+    border: none;
+  }
+}
